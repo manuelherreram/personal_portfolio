@@ -10,16 +10,33 @@ const Contact = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+
+    // Accessing form data
     const formData = new FormData(event.target);
 
+    // Checking if name, email, and message fields are empty
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const message = formData.get("message");
+
+    if (!name || !email || !message) {
+      // Alert the user if any of the fields are empty
+      alert("Please fill in all fields.");
+      return;
+    }
+
+    setResult("Sending....");
+
+    // Adding access key to form data
     formData.append("access_key", "8c869ce5-190b-46aa-8cae-87b1b10c2b9a");
 
+    // Sending form data
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData,
     });
 
+    // Handling response
     const data = await response.json();
 
     if (data.success) {
