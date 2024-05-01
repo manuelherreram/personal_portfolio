@@ -8,7 +8,11 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src={footer_logo} alt="" />
-          <p>I am a Full-stack developer from Valparaiso, Chile with.....</p>
+          <p>
+            I am a Full-stack developer from Valparaiso, Chile with over two
+            years of experience, specializing in React.js, JavaScript, HTML,
+            CSS, and Spring Boot.{" "}
+          </p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">

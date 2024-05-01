@@ -43,7 +43,11 @@
   padding: 25px 75px;
   border-radius: 50px;
   border: 2px solid #fff;
-  ursor: pointer;
+  cursor: pointer;
+}
+.hero-resume a {
+  text-decoration: none;
+  color: inherit;
 }
 .hero-connect:hover {
   border: 2px solid white;

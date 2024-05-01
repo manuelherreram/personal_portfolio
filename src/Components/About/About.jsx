@@ -16,9 +16,18 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am an experienced Full-stack Developer with over two years ...
+              I'm a seasoned Full-stack Developer with over two years of
+              experience, specializing in React.js, JavaScript, HTML, CSS, and
+              Spring Boot.
             </p>
-            <p>My passion for development is not only ....</p>
+            <p>
+              My passion for development goes beyond profession, it's a journey
+              of continual learning and innovation. I thrive on crafting
+              seamless user experiences and efficient functionalities. I'm
+              dedicated to collaboration, open communication, and staying
+              updated with industry trends. Let's build something great
+              together.
+            </p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
@@ -34,7 +43,7 @@ const About = () => {
               <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>Next JS</p>
+              <p>Springboot</p>
               <hr style={{ width: "50%" }} />
             </div>
           </div>

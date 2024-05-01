@@ -20,7 +20,15 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          {" "}
+          <a
+            href="https://www.linkedin.com/in/manuelherreramontoya/"
+            target="_blank"
+          >
+            My resume
+          </a>
+        </div>
       </div>
     </div>
   );
